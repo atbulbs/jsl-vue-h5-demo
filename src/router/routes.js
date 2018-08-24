@@ -6,6 +6,8 @@ const CloseDemo = () => import('pages/close-demo')
 const LoadingDemo = () => import('pages/loading-demo')
 const NavbarDemo = () => import('pages/navbar-demo')
 const NomoreTipDemo = () => import('pages/nomore-tip-demo')
+const GridDemo = () => import('pages/grid-demo')
+const BtnScalableJumpDemo = () => import('pages/btn-scalable-jump-demo')
 
 export default [
   {
@@ -47,6 +49,22 @@ export default [
     component: CloseDemo,
     meta: {
       title: 'close 组件'
+    }
+  },
+  {
+    path: '/btn-scalable-jump-demo',
+    name: 'btn-scalable-jump-demo',
+    component: BtnScalableJumpDemo,
+    meta: {
+      title: 'btn-scalable-jump 组件'
+    }
+  },
+  {
+    path: '/grid-demo',
+    name: 'grid-demo',
+    component: GridDemo,
+    meta: {
+      title: 'grid 组件'
     }
   },
   {

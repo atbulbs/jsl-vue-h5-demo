@@ -16,6 +16,8 @@ export default {
   data () {
     return {
       demoList: [
+        'btn-scalable-jump-demo',
+        'grid-demo',
         'avatar-demo',
         'button-demo',
         'close-demo',
@@ -33,6 +35,7 @@ export default {
 .list-root
   full-screen()
   position relative
+  padding-bottom 35px
   >.demo-list
     margin-top 20px
 </style>

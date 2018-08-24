@@ -21,7 +21,7 @@ export default {
 
 .close-demo-root
   width 375px
-  height 623px
+  min-height 623px
   position absolute
   bgc(#bbb)
   .close

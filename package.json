@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jsl-vue-h5": "0.0.12",
+    "jsl-vue-h5": "0.0.17",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },

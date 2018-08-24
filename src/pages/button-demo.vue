@@ -32,7 +32,7 @@ export default {
 
 .button-demo-root
   width 375px
-  height 623px
+  min-height 623px
   position absolute
   >.btn
     margin-top 20px

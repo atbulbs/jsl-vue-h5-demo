@@ -33,6 +33,7 @@ export default {
     font-weight bold
   >.welcome
     tac()
+    margin 25px
   >.to-list
     margin 10px auto
     tac()
