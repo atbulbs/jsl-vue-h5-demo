@@ -16,6 +16,7 @@ export default {
   data () {
     return {
       demoList: [
+        'toast-demo',
         'btn-scalable-jump-demo',
         'grid-demo',
         'avatar-demo',

@@ -13,7 +13,8 @@ import {
   JslGridItem,
   JslLoading,
   JslNavBar,
-  JslNomoreTip
+  JslNomoreTip,
+  JslToast
 } from 'jsl-vue-h5'
 import 'jsl-vue-h5/dist/jsl-vue-h5.min.css'
 
@@ -26,6 +27,7 @@ Vue.use(JslGridItem)
 Vue.use(JslLoading)
 Vue.use(JslNavBar)
 Vue.use(JslNomoreTip)
+Vue.use(JslToast)
 
 new Vue({
   el: '#app',

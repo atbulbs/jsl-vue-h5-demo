@@ -1,7 +1,7 @@
 const resolve = require('../utils/resolve')
 
 const entryConfig = {
-  app: resolve('src/components/index.js')
+  app: resolve('src/main.js')
 }
 
 module.exports = entryConfig

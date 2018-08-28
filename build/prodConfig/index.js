@@ -3,7 +3,6 @@ const output = require('./output')
 const rules = require('./rules')
 const plugins = require('./plugins')
 const optimization = require('./optimization')
-const externals = require('./externals')
 
 const prodConfig = {
   entry,
@@ -12,8 +11,7 @@ const prodConfig = {
     rules
   },
   plugins,
-  optimization,
-  externals
+  optimization
 }
 
 module.exports = prodConfig

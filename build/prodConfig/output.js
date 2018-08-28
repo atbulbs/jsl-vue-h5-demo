@@ -1,12 +1,8 @@
 const resolve = require('../utils/resolve')
 
 const outputConfig = {
-  path: resolve('dist'),
-  publicPath: '',
-  filename: 'jsl-vue-h5.min.js',
-  library: 'JslVueH5',
-  libraryTarget: 'umd',
-  umdNamedDefine: true
+  filename: '[name].[chunkhash:8].js',
+  path: resolve('dist')
 }
 
 module.exports = outputConfig

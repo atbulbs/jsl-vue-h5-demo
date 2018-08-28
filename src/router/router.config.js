@@ -1,7 +1,7 @@
 import routes from './routes'
 
 const RouterConfig = {
-  mode: 'history',
+  // mode: 'history',
   base: '/jsl-vue-h5-demo/',
   routes
 }
